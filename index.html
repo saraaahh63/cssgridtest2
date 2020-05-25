@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css">
+    	
+    </style>
+
+</head>
+
+<body>
+		<div class="contain" id="one">
+			<div class="wrapper-1">
+				<div class="images" id="street">
+					<img src="images/streetempty.jpg">
+				</div>
+				<div class="images" id="bar">
+					<img src="images/signbilliesbar.png">
+				</div>
+				<div class="images" id="drugstore">
+					<img src="images/signdrugstore.png">
+				</div>
+				<div class="images" id="butcher">		
+					<img src="images/signbutcher.png">
+				</div>
+				<div class="images" id="r1">
+					<img  src="images/signneweastern.png">
+				</div>
+				<div class="images" id="r2">
+					<img src="images/signcanton.png">
+				</div>
+				<div class="images" id="r3">
+					<img  src="images/signchopsuey.png">
+				</div>
+				<div class="images" id="r4">
+					<img src="images/signrathskeller.png">
+				</div>
+				<div class="images" id="r5">
+					<img src="images/signshanghai.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="contain" id="two">
+			<div class="wrapper-2">
+				<div class="images" id="bckgrnd">
+				<img  src="images/riotbg.png">
+				</div>
+				<div class="images" id="crowdfront">
+				<img  src="images/riotcrowdfront.png">
+				</div>
+				<div class="images" id="crowdmid">
+				<img  src="images/riotcrowdmid.png">
+				</div>
+				<div class="images" id="crowdback">
+				<img  src="images/riotcrowdback.png">
+				</div>
+				<div class="images" id="f1">
+				<img  src="images/riotfist01.png">
+				</div>
+				<div  class="images" id="f2">
+				<img src="images/riotfist02.png">
+				</div>
+				<div class="images" id="s1">
+				<img src="images/riotsign01.png">
+				</div>
+				<div class="images" id="s2">
+				<img src="images/riotsign02.png">
+				</div>
+				<div class="images" id="s3">
+				<img  src="images/riotsign03.png">
+				</div>
+				<div class="images" id="smoke1">
+				<img  src="images/riotsmoke01.png">
+				</div>
+				<div class="images" id="smoke2">
+				<img  src="images/riotsmoke02.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="contain" id="three">
+			<div class="wrapper-3">
+				<div class="images" id="bricks">
+				<img src="images/wallbricks.png">
+				</div>
+				<div class="images" id="climbing">
+				<img src="images/climbing.png">
+				</div>
+				<div class="images" id="ladder">
+				<img src="images/ladder.png">
+				</div>
+				<div class="images" id="wallbg">
+				<img src="images/skybg.png">
+				</div>
+				<div class="images" id="chinesepeople">
+				<img src="images/wallchinaless.png">
+				</div>
+			</div>
+		</div>
+		
+		<div class="contain" id="four">
+			<img class="images" id="court" src="images/court.png">
+			<img class="images" id="dad" src="images/dad.png">
+			<img class="images" id="lawyer" src="images/lawyer.png">
+			<img class="images" id="gates" src="images/gates.png">
+		</div>
+
+		<div class="contain" id="five">
+			<div class="wrapper-5">
+				<div class="images" id="bg">
+					<img src="images/restaurant.jpg">
+				</div>
+				<div class="images" id="cook">
+					<img src="images/cook.png">
+				</div>
+				<div class="images" id="table">	
+					<img src="images/tables.png">
+				</div>
+				<div class="images" id="chair">
+					<img src="images/chairs.png">
+				</div>
+				<div class="images" id="waiter">	
+					<img src="images/waiter.png">
+				</div>
+				<div class="images" id="dad2">
+					<img src="images/dad_front.png">
+				</div>
+				<div class="images" id="cashier">
+					<img src="images/cashier.png">
+				</div>
+			</div>	
+		</div>
+
+		<div class="contain" id="six">
+			<img class="images" id="room" src="images/room.jpg">
+			<img class="images" id="dad3" src="images/dad_front.png">
+			<img class="images" id="butcherman" src="images/butcher.png">
+		</div>
+
+		<div class="contain" id="seven">
+			<img class="images" id="dad1" src="images/dad.png">
+			<img class="images" id="boatback" src="images/boatbackground.png">
+			<img class="images" id="boatboat" src="images/boatboat.png">
+			<img class="images" id="boatsmoke" src="images/boatsmoke.png">
+			<img class="images" id="boatfront" src="images/boatfront.png">
+		</div>
+
+		<div class="contain" id="eight">
+			<img class="images" id="dad4" src="images/dad4.png">
+			<img class="images" id="home" src="images/home.png">
+			<img class="images" id="mom" src="images/mom.png">
+			<img class="images" id="son" src="images/son.png">
+		</div>
+
+		<div class="contain" id="nine">
+			<img class="images" id="streetfull" src="images/streetfull.png">
+			<img class="images" id="dad5" src="images/dad4.png">
+			<img class="images" id="son1" src="images/son.png">
+			<!-- <img class="images" id="butcherman1" src="images/butcher.png"> -->
+			<img class="images" id="cashier1" src="images/cashier.png">
+			<img class="images" id="waiter1" src="images/waiter.png">
+			<img class="images" id="cook1" src="images/cook.png">
+		</div>
+
+		<div class="block" id="block">
+			<p id="title">Test</p>
+		</div>
+		
+		<div class="block" id="block1">
+			<!-- <p class="text" id="text5"></p> -->
+		</div>
+
+		<div class="block" id="block2">
+			<p class="text" id="text6">Today there are more Chinese restaurants in the United States than the combined total of McDonald’s, Burger King, Wendy’s, and KFC chains. Historically speaking, the Chinese restaurant industry took off while U.S. immigration laws prevented most Chinese citizens from immigrating. How was this possible? This visual narrative unravels the historical paradox of Chinese restaurants in the United States.</p>
+
+		</div>
+
+		<div class="block" id="block3">
+				<!-- <p class="text" id="text7"></p> -->
+		</div>
+
+		<div class="block" id="block4">
+			<p class="text" id="text8">The story begins at the height of anti-Chinese sentiment. During the 1870s, the US economy had slid into a long depression, causing companies to let go of employees and lower wages. On July 23, 1877, thousands of frustrated individuals gathered in front of San Francisco’s City Hall. They blamed Chinese immigrants for their misery. For two nights, thousands of demonstrators rampaged through the city’s Chinatown, taking four lives and destroying property worth over a hundred thousand dollars.</p>
+		</div>
+
+		<div class="block" id="block5">
+			<p class="text" id="text9">Out of the San Francisco Riots, a political movement started taking shape. Protestors wanted to prevent more Chinese immigrants from coming to the United States. These voters exercised tremendous political influence. In 1880, the Republican and Democratic Parties both included Anti-Chinese planks in the national agenda.</p>
+
+		</div>
+
+		<div class="block" id="block6">
+				<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="blockhidden">
+		</div>
+
+		<div class="block" id="block7">
+			<p class="text" id="text">Many demands of the Anti-Chinese political movement eventually became law, as the Chinese Exclusion Act of 1882. The Chinese Exclusion Act turned Chinese immigrants into permanent outsiders. It prevented all Chinese immigrants from becoming U.S. citizens. It also prohibited Chinese laborers from coming to the United States.</p>
+		</div>
+		<div class="block" id="block8">
+			<p class="text" id="text">There was a special clause in the Chinese Exclusion Act for business owners. It was called “merchant exemption.” Chinese citizens with merchant status could come to the United States with wives and children in tow.</p>
+		</div>
+
+		<div class="block" id="block9">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>	
+
+		<div class="block" id="block10">
+			<p class="text" id="text1">Just when the Chinese Exclusion Act was signed into law, the Chinese started opening restaurants in New York. New Yorkers loved “chop suey,” a dish of stir-fried meat, water chestnuts, bamboo shoots, and mung bean sprouts in a thick soy sauce gravy. By the early twentieth-century, hundreds of Chinese restaurants served this popular dish through the city.</p>
+		</div>
+
+		<div class="block" id="block11">
+			<p class="text" id="text2">Chinese restaurant owners applied for “merchant exemption,” hoping to reunite with their families. Immigration officials, however, rejected their applications, because a judge in Seattle had ruled that Chinese restaurants were insignificant businesses and therefore did not count. New York’s Chinese food industry was thriving, so restaurant owners went to court to overturn this ruling. In 1915, a federal appeals court judge sided with the Chinese, creating a legal precedent that significantly changed the lives of thousands of Chinese immigrants in the United States and their families.</p>
+
+		</div>
+
+		<div class="block" id="block12">
+			<p class="text" id="text3">This visual story is based on the experiences of New York Chinese restaurant owners, for whom work, family, and immigration status were inseparable. Led by Heather Ruth Lee, dozens of researchers have culled information from these applications to create the Chinese Restaurant Database. A team of animators and illustrators presented this data</p>
+		</div>
+
+		<div class="block" id="block13">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block14">
+			<!-- <p class="text" id="text"></p> -->
+		</div>
+
+		<div class="block" id="block15">
+			<p class="text" id="text52">Following World War I, while the New York economy boomed, the number of Chinese restaurants spiked. A new Chinese restaurant required $20,000 in starting capital. Since banks refused them business loans and few Chinese had that much money saved, the Chinese worked out a strategy of pooling their assets. Four individuals would contribute equal amounts of money and sell shares to friends and relatives to pay for rent, furnishings, equipment, and supplies. The partners would also divide the day-to-day duties of running the restaurant.</p>
+		</div>
+
+		<div class="block" id="block16">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block17">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block18">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block19">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block20">
+			<p class="text" id="text2">To prevent all Chinese partners from applying for merchant exemption at once, immigration officials only recognized the “manager,” the partner who did all the purchasing. About a year into business, the manager would submit an application and go to the immigration bureau for an interview. He answered detailed questions about the restaurant’s finances and operations, as well as persona; inquiries about his family and immigration history. Immigration officials also required him to have two white witnesses--usually the restaurant’s grocers or butchers--who corroborated.</p>
+		</div>
+
+		<div class="block" id="block21">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block22">
+			<p class="text" id="text10">If they passed the immigration interview and received merchant status, Chinese restaurant owners celebrated by taking extended visits to China. Under the Chinese Exclusion Act of 1882, which had been passed to prevent new immigration from China, Chinese immigrants already here were not allowed back if they left the United States. Those who had “merchant status,” however, had legal permission to be away for up to one calendar year. With merchant status in hand to guarantee their reentry, Chinese restaurant owners spent as much time as possible with wives, children, and extended family members, who they had not seen in years. Some of them had come to the United States as bachelors and were now returning to China to start families.</p>
+		</div>
+
+		<div class="block" id="block23">
+			<p class="text" id="text11">To get to China, they departed from New York by rail or sea for the West Coast, where they would embark by steamship to Hong Kong. From there, they continued by boat and rail to rural villages in southern China. Though steamship travel was quick, the complicated itinerary--especially the final leg to rural villages--meant that these men spent months in transit.</p>
+		</div>
+
+		<div class="block" id="block24">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block25">
+			<p class="text" id="text12">These visits home were much anticipated reunions for families that had divided and carried out responsibilities of the household in separate countries. In the United States, restaurant owners had sent earnings to support daily expenses of family members and, when possible, to invest in land and homes. Their wives, meanwhile, had managed the household, raising children, caring for his parents, and tending to crops and livestock.</p>
+		</div>
+
+		<div class="block" id="block26">
+			<p class="text" id="text13">In the months together, families celebrated by feasting together and making plans for the future. Couples, especially, hoped that their families would grow in number. Bachelors who found wives in China wished the same. For the Chinese, the spiritual and economic future rested on having children to carry on in their name.</p>
+		</div>
+
+		<div class="block" id="block27">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block28">
+			<p class="text" id="text14">When it was time to return to the United States, restaurant owners often returned with eldest sons, leaving behind their wives, daughters, and younger boys in their home villages. It made practical sense to bring the eldest sons back to the United States. With some training, they could help shoulder the financial burden that their fathers carried. While families expenses in China were low compared to expenses in the United States, restaurant work eked out thin, yet stable, profits annually. The extra set of hands could lower business costs in a labor intensive industry, leaving more income to be split between restaurant partners at the end of the year. And so Chinese restaurants were intergenerational and transnational projects.</p>
+		</div>
+
+		<div class="block" id="block29">
+			<p class="text" id="text15">In the early twentieth century, Chinese restaurants served exotic foods at low costs to urban consumers in the United States. The experience captivated a generation raised on meat and potatoes, propelling the flavors of the Chinese--a numerically, economically, and politically marginal group of immigrants--into the mainstream. </p>
+		</div>
+
+		<div class="block" id="block30">
+			<p class="text" id="text16">At the same time, Chinese immigrants dared to assert themselves through food, carving out a place for themselves not only in the culinary landscape of American cities, but also in the economic and social tapestry of American society. This was a remarkable feat, given the racism they faced. While Chinese Exclusion prevented them from integrating, they made Chinese restaurants into a vehicle of mobility. </p>
+		</div>
+
+		<div class="block" id="block31">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block32">
+			<p class="text" id="text17">CREDITS</p>
+			<p class="text" id="text18">Heather Ruth Lee, Principle Investigator and Creator<br><br>Hong Deng Gao, Project Manager<br><br>Lucy Boltz, Lead Research Assistant<br><br>Yuchen Ye, Research Assistant Coordinator</p>
+			<p class="text" id="text19">Sarah Tahir, Lead Animator<br><br> Marina Pascual-Izquierdo, Animator</p>
+			<p class="text" id="text20">Trevor Fraley, Illustrator<br><br>Chrissie Bonner, Visual Consultant</p>
+		</div>
+
+		<div class="block" id="block33">
+			<p class="text" id="text21">RESEARCH ASSISTANTS</p>
+			<p class="text" id="text22">Alexander Nguyen<br><br>Amy DeCillis<br><br>Casey Pan<br><br>Daniel (Zhebin) Huang<br><br>Dyadra Saulsberry<br><br>Elisabeth Fisher<br><br>Emira Sabanovic<br><br>Fiona (Tianjin) Zhang<br><br>Haitian Ma<br><br>Jia Zhao<br><br>Jiahe Tian<br><br>Mengting Yan<br><br>Karla Wang<br><br>Liam Han Shaw<br><br>Lichen Dong<br><br>Megan Wong<br><br>Nofar Hamrany<br><br>Sharon (Shaoyu) Zhang<br><br>Victoria (Wanning) Fu<br><br>Victoria Vitucci<br><br>Tian Tian Wedgewood<br><br>Xiaoyue Luo<br><br>Yunqi Song</p>
+		</div>
+
+		<div class="block" id="block34">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block35">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+		<div class="block" id="block36">
+			<!-- <p class="text" id="text10"></p> -->
+		</div>
+
+	<script src="script.js"></script>
+
+</body>
+</html>

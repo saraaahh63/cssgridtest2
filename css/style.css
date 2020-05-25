@@ -1,0 +1,832 @@
+@font-face {
+	font-family: avenir;
+	src: url(font/AvenirLTStd-Medium.otf);
+}
+
+
+/* Masha edits */
+
+.wrapper-5 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 11% 12% auto 9% 3%;
+    justify-items: stretch;
+    align-items: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+#five {
+    position: fixed;
+    display: flex;;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+.wrapper-5 #bg, .wrapper-5 #table, .wrapper-5 #chair {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-5 #cook {
+    justify-self: end;
+    align-self: end;
+    grid-row: 3/4;
+    grid-column: 1;
+    width: 37%;
+    position: initial;
+    max-height: none;
+}
+.wrapper-5 #waiter {
+	justify-self: center;
+    align-self: center;
+    grid-row: 2/4;
+    grid-column: 4;
+    position: initial;
+    max-height: none;
+}
+.wrapper-5 #dad2 {
+    justify-self: center;
+    align-self: center;
+    grid-row: 2/5;
+    grid-column: 2;
+    width: 47%;
+    z-index: 3;
+    position: initial;
+    max-height: none;
+}
+.wrapper-5 #cashier {
+	justify-self: start;
+    align-self: start;
+    grid-row: 3/4;
+    grid-column: 3;
+    width: 73%;
+     position: initial;
+     max-height: none;
+}
+.wrapper-5 > div img {
+    max-width: 100%;
+}
+
+
+/*   ---------  */
+
+.wrapper-1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 11% 12% auto 9% 3%;
+    justify-items: stretch;
+    align-items: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+#one {
+	position: fixed;
+    display: flex;;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;	
+}
+
+.wrapper-1 #street, .wrapper-1 #bar, .wrapper-1 #drugstore, .wrapper-1 #butcher {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-1 #r1, .wrapper-1 #r2, .wrapper-1 #r3, .wrapper-1 #r4, .wrapper-1 #r5 {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-1 > div img {
+    max-width: 100%;
+}
+
+.wrapper-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 11% 12% auto 9% 3%;
+    justify-items: stretch;
+    align-items: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+#two {
+	position: fixed;
+    display: flex;;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;	
+}
+
+.wrapper-2 #bckgrnd, .wrapper-2 #crowdfront, .wrapper-2 #crowdmid, .wrapper-2 #crowdback {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-2 #f1, .wrapper-2 #f2, .wrapper-2 #s1, .wrapper-2 #s2, .wrapper-2 #s3, .wrapper-2 #smoke1, .wrapper-2 #smoke2 {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-2 > div img {
+    max-width: 100%;
+}
+
+.wrapper-3 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 11% 12% auto 9% 3%;
+    justify-items: stretch;
+    align-items: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+#three {
+	position: fixed;
+    display: flex;;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;	
+}
+
+.wrapper-3 #bricks, .wrapper-3 #wallbg, .wrapper-3 #chinesepeople {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-3 #ladder, .wrapper-3 #climbing {
+	justify-self: center;
+    align-self: center;
+    grid-row: 3;
+    grid-column: 4;
+	position: initial;
+	max-height: none;
+}
+
+
+.wrapper-3 > div img {
+    max-width: 100%;
+}
+
+
+
+html, body {
+        height: 100%;
+        margin: 0;
+		padding: 0;
+		font-family: "avenir", sans-serif;
+
+}
+
+img {
+	max-width: 50%;
+	height: auto;
+}
+
+.contain {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+#five{
+	opacity: 0;
+}
+
+p{
+	text-align: left;
+	width:100%;
+	font-size: 120%;
+}
+
+#title {
+	text-align: center;
+}
+
+.text{
+   top: 25%;
+   position:relative;
+   background: rgba(255, 255, 255, .8);
+   /* border-radius: 25px; */
+   padding:20px;
+   margin-left:auto;
+   margin-right:auto;
+   z-index: 2;
+   width: 40%;
+}
+
+#text5,#text6,#text7{
+	position: relative;
+	top:50%;
+	left: 0%;
+}
+
+#text1,#text2,#text3{
+	position: relative;
+	top:50%;
+	left: 0%;
+}
+
+#title{
+	position:absolute;
+	font-size: 80px;
+	width: 100%;
+	top: 30%;
+}
+
+
+.block{
+	height:100%;
+	width:100%;
+}
+
+#block6{
+	height:200%;
+}
+
+#block7{
+	height:150%;
+}
+
+#block8{
+	height:150%;
+}
+
+#bar{
+	position:fixed;
+	opacity: 0;
+}
+
+#butcher{
+	position:fixed;
+	opacity: 0;
+}
+
+#drugstore{
+	position:fixed;
+	opacity: 0;
+}
+
+#street{
+	position:fixed;
+	opacity: 0;
+}
+
+#r1{
+	position:fixed;
+	opacity: 0;
+
+}
+
+#r2{
+	position:fixed;
+	opacity: 0;
+
+}
+
+#r4{
+	position:fixed;
+	opacity: 0;
+
+}
+
+#r3{
+	position:fixed;
+	opacity: 0;
+
+}
+
+#r5{
+	position:fixed;
+	opacity: 0;
+}
+
+#block9{
+	height:200%;
+}
+
+#block10{
+	height:150%;
+}
+
+#block11{
+	height:150%;
+}
+
+#crowdback{
+	position:fixed;
+	z-index: -2;
+	opacity: 0;
+}
+
+#crowdmid{
+	position:fixed;
+	z-index: -1;
+	opacity: 0;
+}
+
+#crowdfront{
+	position:fixed;
+	z-index:1;
+	opacity: 0;
+}
+
+#bckgrnd{
+	position:fixed;
+	z-index: -5;
+	opacity: 0;
+}
+
+#smoke1{
+	position:fixed;
+	z-index: 0;
+	opacity: 0;
+}
+
+#smoke2{
+	position:fixed;
+	z-index: 0;
+	opacity: 0;
+}
+
+#s1{
+	position:fixed;
+	opacity: 0;
+}
+
+#s2{
+	position:fixed;
+	opacity: 0;
+}
+
+#s3{
+	position:fixed;
+	opacity: 0;
+}
+
+#f1{
+	position:fixed;
+	opacity: 0;
+}
+
+#f2{
+	position:fixed;
+	opacity: 0;
+}
+
+#bricks{
+	position: fixed;
+	z-index: -5;
+	opacity: 0;
+}
+
+#climbing{
+    position: fixed;
+    opacity: 0;
+	z-index: 1;
+}
+
+#ladder{
+	position: fixed;
+	width: 800px;
+	height: 100%;
+    opacity: 0;
+    z-index: 0;
+}
+
+#wallbg{
+	position: fixed;
+    opacity: 0;
+    z-index: -6;
+}
+
+#chinesepeople{
+    position: fixed;
+    opacity: 0;
+    z-index: -3;
+}
+
+#dad{
+	position:fixed;
+	top: 30%;
+	max-height: 50%;
+	opacity: 0;
+	
+}
+
+#lawyer{
+	position:fixed;
+	left: 22%;
+	max-height: 50%;
+	opacity: 0;
+}
+
+#court{
+	position:fixed;
+	opacity: 0;
+}
+
+#gates{
+	position: fixed;
+	opacity: 0;
+}
+
+#dad2{
+	position:fixed;
+	z-index: -6;
+	top: 28%;
+	max-height: 50%;
+	opacity: 0;
+}
+
+#bg{
+	position: fixed;
+	opacity: 0;
+	z-index: -10;
+}
+
+#table{
+    position: fixed;
+    z-index: -7;
+    opacity: 0;
+}
+
+#chair{
+    position: fixed;
+    z-index: -7;
+    opacity: 0;
+}
+
+#cook{
+	position:fixed;
+	top: 32%;
+	left: 30%;
+	max-height: 50%;
+    z-index: -9;
+	opacity: 0;
+}
+
+#waiter{
+	position:fixed;
+	right: 21%;
+	max-height: 50%;
+    z-index: -7;
+	opacity: 0;
+}
+
+#cashier{
+	position:fixed;
+	right: 32%;
+	max-height: 40%;
+    z-index: -9;
+	opacity: 0;
+}
+
+#room{
+	position: fixed;
+	width: 100vw;
+    opacity: 0;
+}
+
+#butcherman{
+	position:fixed;
+	top: 30%;
+	right: 30%;
+	max-height: 50%;
+	opacity: 0;
+}
+
+#dad3{
+	position:fixed;
+	left: 34%;
+	top: 30%;
+	max-height: 40%;
+	opacity: 0;
+}
+
+#dad1{
+	position:fixed;
+	top: 30%;
+	max-height: 50%;
+	opacity: 0;
+	z-index: 0;
+	
+}
+
+#boatback{
+	position: fixed;
+	width: 100vw;
+    opacity: 0;
+    z-index: -3;
+}
+
+#boatboat{
+	position: fixed;
+	width: 100vw;
+    opacity: 0;
+    z-index: -2;
+}
+
+#boatsmoke{
+	position: fixed;
+	width: 100vw;
+    opacity: 0;
+    z-index: -1;
+}
+
+#boatfront{
+	position: fixed;
+	width: 100vw;
+    opacity: 0;
+    z-index: 1;
+}
+
+#home{
+	position: fixed;
+	width: 100vw;
+	opacity: 0;
+	z-index: -1;
+}
+
+#mom {
+	position: fixed;
+	opacity: 0;
+	top: 30%;
+	left: 38%;
+	max-height: 50%;
+	z-index: 0;
+}
+
+#son{
+	position: fixed;
+	opacity: 0;
+	top: 30%;
+	left: 45%;
+	max-height: 50%;
+	z-index: 0;
+}
+
+#dad4{
+	position:fixed;
+	top: 30%;
+	max-height: 50%;
+	opacity: 0;	
+	z-index: 0;
+}
+
+#son1{
+	position: fixed;
+	opacity: 0;
+	top: 30%;
+	left: 45%;
+	max-height: 50%;
+}
+
+#dad5{
+	position:fixed;
+	top: 30%;
+	max-height: 50%;
+	opacity: 0;	
+}
+
+#cook1{
+	position:fixed;
+	top: 29%;
+	left: 33%;
+	max-height: 50%;
+	opacity: 0;
+}
+
+#waiter1{
+	position:fixed;
+	top: 30%;
+	right: 24%;
+	max-height: 50%;
+	opacity: 0;
+}
+
+#cashier1{
+	position:fixed;
+	top: 30%;
+	left: 25%;
+	max-height: 50%;
+	opacity: 0;
+}
+
+/* #butcherman1{
+	position:fixed;
+	top: 30%;
+	right: 30%;
+	max-height: 50%;
+	opacity: 0;
+} */
+
+#streetfull{
+	position: fixed;
+	width: 100vw;
+	opacity: 0;
+}
+
+/* @media (max-width: 1650px) {
+	#butcher{
+		top: 5%;
+	}
+	#dad{
+		bottom:5%;
+	}
+}
+
+@media (max-width: 1450px) {
+	#butcher{
+		top: 10%;
+	}
+
+}
+
+@media (max-width: 1300px) {
+	#dad{
+		bottom:25%;
+	}
+}
+
+@media (max-width: 1260px) {
+	#butcher{
+		top: 15%;
+	}
+}
+
+@media (max-width: 1100px) {
+	#butcher{
+		top: 20%;
+	}
+}
+@media (max-width: 900px) {
+	#butcher{
+		top: 25%;
+	}
+}
+
+@media (max-width: 780px) {
+	#butcher{
+		top: 29%;
+	}
+}
+
+@media (max-width: 630px) {
+	#butcher{
+		top: 33%;
+	}
+}
+
+@media (max-width: 500px) {
+	p{
+		font-size: 1.2em;
+	}
+	#butcher{
+		top: 37%;
+	}
+	#dad{
+		/*height:50%;*/
+/* 	}
+}
+
+@media (max-width: 390px) {
+	#butcher{
+		top: 40%;
+	}
+}
+
+@media (max-width: 1500px) {
+	#dad{
+		top:17%;
+	}
+}
+
+@media (max-width: 1310px) {
+	#dad{
+		top:20%;
+	}
+}
+
+@media (max-width: 190px) {
+	#dad{
+		top:23%;
+	}
+}
+@media (max-width: 1060px) {
+	#dad{
+		top:26%;
+	}
+}
+
+@media (max-width: 960px) {
+	#dad{
+		top:29%;
+	}
+}
+@media (max-width: 820px) {
+	#dad{
+		top:32%;
+	}
+}
+@media (max-width: 720px) {
+	#dad{
+		top:34%;
+	}
+}
+@media (max-width: 630px) {
+	#dad{
+		top:36%;
+	}
+}
+@media (max-width: 550px) {
+	#dad{
+		top:38%;
+	}
+}
+@media (max-width: 470px) {
+	#dad{
+		top:40%;
+	}
+}
+@media (max-width: 390px) {
+	#dad{
+		top:41%;
+	}
+}
+
+@media (max-width: 490px) {
+	#title{
+		font-size: 3em;
+	}
+}
+
+@media (max-width: 1150px) {
+	p{
+		font-size: 1.8em;
+	}
+}
+
+@media (max-width: 1050px) {
+	p{
+		font-size: 1.6em;
+	}
+}
+
+@media (max-width: 900px) {
+	p{
+		font-size: 1.4em;
+	}
+}
+@media (max-width: 800px) {
+	p{
+		font-size: 1.2em;
+	}
+}
+
+@media (max-width: 700px) {
+	p{
+		font-size: 1.0em;
+	}
+}
+
+@media (max-width: 500px) {
+	p{
+		font-size: 0.8em;
+	}
+}
+
+@media (max-width: 400px) {
+	p{
+		font-size: 0.4em;
+	}
+} */ 
