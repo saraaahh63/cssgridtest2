@@ -107,13 +107,13 @@ duration: 1000
 .addTo(controller);
 
 var scene18 = new ScrollMagic.Scene({
-triggerElement:"#block6",
+triggerElement:"#block5",
 duration: 1000
 }).setTween("#f2", 1, {opacity:"1"})
 .addTo(controller);
 
 var scene19 = new ScrollMagic.Scene({
-triggerElement:"#block6",
+triggerElement:"#block5",
 duration: 1000
 }).setTween("#s2", 1, {opacity:"1"})
 .addTo(controller);
@@ -135,7 +135,7 @@ var scene21 = new ScrollMagic.Scene({
 var controller = new ScrollMagic.Controller();
 
 var scene22 = new ScrollMagic.Scene({
-    triggerElement: "#blockhidden",
+    triggerElement: "#block7",
     duration: 1000
   }).setTween("#wallbg", 1, {
     opacity: "1"
@@ -144,7 +144,7 @@ var scene22 = new ScrollMagic.Scene({
 ;
 
 var scene23 = new ScrollMagic.Scene({
-    triggerElement: "#blockhidden",
+    triggerElement: "#block7",
     duration: 1000
   }).setTween("#bricks", 1, {
     opacity: "1"
@@ -180,7 +180,7 @@ var scene23 = new ScrollMagic.Scene({
 // ;
   
 var scene25 = new ScrollMagic.Scene({
-    triggerElement: "#blockhidden",
+    triggerElement: "#block7",
     duration: 1000
   }).setTween("#chinesepeople", 1, {
     opacity: "1"
@@ -200,7 +200,7 @@ var scene26 = new ScrollMagic.Scene({
 var scene27 = new ScrollMagic.Scene({
     triggerElement: "#block8",
     duration: 1000
-  }).setTween("#climbing", 1, {
+  }).setTween("#climbing-img", 1, {
     opacity: "1"
   })
   .addTo(controller)
@@ -209,7 +209,7 @@ var scene27 = new ScrollMagic.Scene({
 var scene28 = new ScrollMagic.Scene({
     triggerElement: "#block8",
     duration: 1000
-  }).setTween("#climbing", 1, { top: "140px" })
+  }).setTween("#climbing-img", 1, { top: "9%" })
   .addTo(controller)
 ;
 
@@ -233,25 +233,25 @@ var controller = new ScrollMagic.Controller();
 		.addTo(controller);
 
 		var scene31 = new ScrollMagic.Scene({
-		triggerElement:"#block11",
+		triggerElement:"#block10",
 		duration: 1000
 		}).setTween("#court", 1, {opacity:"1"})
 		.addTo(controller);
 
     var scene32 = new ScrollMagic.Scene({
-      triggerElement:"#block12",
+      triggerElement:"#block11",
 			duration:1000
 		}).setTween("#gates", 1, {opacity:"1"})
 		.addTo(controller);
 
 		var scene33 = new ScrollMagic.Scene({
-			triggerElement:"#block12",
+			triggerElement:"#block10",
 			duration:1000
 		}).setTween("#lawyer", 1, {opacity:"1"})
     .addTo(controller);
     
     var scene34 = new ScrollMagic.Scene({
-			triggerElement:"#block13",
+			triggerElement:"#block11",
 			duration:1000
 		}).setTween("#four", 1, {opacity:"0"})
     .addTo(controller);
@@ -261,7 +261,7 @@ var controller = new ScrollMagic.Controller();
 var controller = new ScrollMagic.Controller();
 
 var scene35 = new ScrollMagic.Scene({
-  triggerElement: "#block14",
+  triggerElement: "#block12",
   duration: 1000
 }).setTween("#five", 1, {
   opacity: "1"
@@ -269,7 +269,7 @@ var scene35 = new ScrollMagic.Scene({
 .addTo(controller);
 
 var scene36 = new ScrollMagic.Scene({
-  triggerElement: "block14",
+  triggerElement: "block12",
   duration: 1000
 }).setTween("#bg", 1, {
   opacity: "1"
@@ -277,7 +277,7 @@ var scene36 = new ScrollMagic.Scene({
 .addTo(controller);
 
 var scene37 = new ScrollMagic.Scene({
-  triggerElement: "block14",
+  triggerElement: "block12",
   duration: 1000
 }).setTween("#dad2", 1, {
   opacity: "1"
@@ -333,7 +333,7 @@ var scene43 = new ScrollMagic.Scene({
 .addTo(controller);
 
 var scene44 = new ScrollMagic.Scene({
-  triggerElement: "#block18",
+  triggerElement: "#block17",
   duration: 1000
 }).setTween("#five", 1, {
   opacity: "0"
@@ -345,19 +345,19 @@ var scene44 = new ScrollMagic.Scene({
 var controller = new ScrollMagic.Controller();
 
 var scene45 = new ScrollMagic.Scene({
-  triggerElement:"#block20",
+  triggerElement:"#block19",
   duration: 1000
 }).setTween("#dad3", 1, {opacity: "1"})
 .addTo(controller);
 
 var scene46 = new ScrollMagic.Scene({
-  triggerElement:"#block20",
+  triggerElement:"#block19",
   duration: 1000
 }).setTween("#room", 1, {opacity:"1"})
 .addTo(controller);
 
 var scene47 = new ScrollMagic.Scene({
-  triggerElement:"#block20",
+  triggerElement:"#block19",
   duration: 1000
 }).setTween("#butcherman", 1, {opacity:"1"})
 .addTo(controller);
@@ -413,7 +413,7 @@ var scene54 = new ScrollMagic.Scene({
 // ------------------------------------------------
 
 var scene55 = new ScrollMagic.Scene({
-  triggerElement:"#block26",
+  triggerElement:"#block25",
   duration: 1000
 }).setTween("#dad4", 1, {opacity: "1"})
 .addTo(controller);
@@ -451,31 +451,31 @@ var scene60 = new ScrollMagic.Scene({
 .addTo(controller);
 
 var scene61 = new ScrollMagic.Scene({
-  triggerElement:"#block29",
+  triggerElement:"#block28",
   duration: 1000
 }).setTween("#dad5", 1, {opacity: "1"})
 .addTo(controller);
 
 var scene62 = new ScrollMagic.Scene({
-  triggerElement:"#block29",
+  triggerElement:"#block28",
   duration: 1000
 }).setTween("#son1", 1, {opacity: "1"})
 .addTo(controller);
 
 var scene63 = new ScrollMagic.Scene({
-  triggerElement:"#block30",
+  triggerElement:"#block29",
   duration: 1000
 }).setTween("#cashier1", 1, {opacity: "1"})
 .addTo(controller);
 
 var scene64 = new ScrollMagic.Scene({
-  triggerElement:"#block30",
+  triggerElement:"#block29",
   duration: 1000
 }).setTween("#waiter1", 1, {opacity: "1"})
 .addTo(controller);
 
 var scene65 = new ScrollMagic.Scene({
-  triggerElement:"#block30",
+  triggerElement:"#block29",
   duration: 1000
 }).setTween("#cook1", 1, {opacity: "1"})
 .addTo(controller);

@@ -16,7 +16,9 @@
     background-position: center;
     max-width: 900px;
     width: 100%;
-    margin: auto;
+	margin: auto;
+	border: 1px solid black;
+	padding: 20px;
 }
 
 #five {
@@ -86,7 +88,9 @@
     background-position: center;
     max-width: 900px;
     width: 100%;
-    margin: auto;
+	margin: auto;
+	/* border: 1px solid black;
+	padding: 20px; */
 }
 
 #one {
@@ -124,7 +128,9 @@
     background-position: center;
     max-width: 900px;
     width: 100%;
-    margin: auto;
+	margin: auto;
+	/* border: 1px solid black;
+	padding: 20px; */
 }
 
 #two {
@@ -154,15 +160,17 @@
 
 .wrapper-3 {
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr 1fr;
-    grid-template-rows: 11% 12% auto 9% 3%;
+    grid-template-columns: 3% 71% 8% 15% 3%;
+    grid-template-rows: 19% 37% 38% 6%;
     justify-items: stretch;
     align-items: stretch;
     background-repeat: no-repeat;
     background-position: center;
     max-width: 900px;
     width: 100%;
-    margin: auto;
+	margin: auto;
+	/* border: 1px solid black;
+	padding: 20px; */
 }
 
 #three {
@@ -174,19 +182,34 @@
     right: 0;	
 }
 
-.wrapper-3 #bricks, .wrapper-3 #wallbg, .wrapper-3 #chinesepeople {
+.wrapper-3 #bricks, .wrapper-3 #wallbg {
 	grid-row: 1/5;
-    grid-column: 1/5;
+    grid-column: 1/6;
     position: initial;
 }
 
-.wrapper-3 #ladder, .wrapper-3 #climbing {
+.wrapper-3 #ladder {
 	justify-self: center;
     align-self: center;
-    grid-row: 3;
-    grid-column: 4;
+    grid-row: 2/4;
+    grid-column: 3/4;
 	position: initial;
 	max-height: none;
+}
+ .wrapper-3 #climbing {
+	justify-self: center;
+    align-self: center;
+    grid-row: 1/5;
+    grid-column: 3/4;
+	position: relative;
+	max-height: none;
+	height: 100%;
+}
+
+.wrapper-3 #chinesepeople {
+   grid-row: 3/4;
+    grid-column: 2/5;
+	position: initial;
 }
 
 
@@ -194,6 +217,292 @@
     max-width: 100%;
 }
 
+.wrapper-4 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 11% 12% auto 9% 3%;
+    justify-items: stretch;
+    align-items: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+    width: 100%;
+	margin: auto;
+	/* border: 1px solid black;
+	padding: 20px; */
+}
+
+#four {
+	position: fixed;
+    display: flex;;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;	
+}
+
+.wrapper-4 #court, .wrapper-4 #gates {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-4 #dad {
+	justify-self: center;
+    align-self: center;
+    grid-row: 3/6;
+    grid-column: 2;
+    width: 60%;
+    position: initial;
+    max-height: none;
+}
+
+.wrapper-4 #lawyer {
+	justify-self: center;
+    align-self: center;
+    grid-row: 3/5;
+    grid-column: 1;
+    position: initial;
+    max-height: none;
+}
+
+.wrapper-4 > div img {
+    max-width: 100%;
+}
+
+.wrapper-6 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 11% 12% auto 9% 3%;
+    justify-items: stretch;
+    align-items: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+    width: 100%;
+	margin: auto;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#six {
+	position: fixed;
+    display: flex;;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;	
+}
+
+.wrapper-6 #room {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-6 #butcherman {
+	justify-self: center;
+    align-self: center;
+    grid-row: 3/6;
+    grid-column: 3;
+	position: initial;
+	width: 150%;
+	max-height: none;
+}
+
+.wrapper-6 #dad3 {
+	justify-self: center;
+	align-self: center;
+	width: 50%;
+	grid-row: 3;
+    grid-column: 1/2;
+    position: initial;
+    max-height: none;
+}
+
+.wrapper-6 > div img {
+    max-width: 70%;
+}
+
+.wrapper-7 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 11% 12% auto 9% 3%;
+    justify-items: stretch;
+    align-items: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+    width: 100%;
+	margin: auto;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#seven {
+	position: fixed;
+    display: flex;;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;	
+}
+
+.wrapper-7 #boatback, .wrapper-7 #boatsmoke, .wrapper-7 #boatboat, .wrapper-7 #boatfront {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-7 #dad1 {
+	justify-self: center;
+    align-self: center;
+    grid-row: 1/6;
+    grid-column: 2;
+    width: 60%;
+    position: initial;
+    max-height: none;
+}
+
+.wrapper-7 > div img {
+    max-width: 70%;
+}
+
+.wrapper-8 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 11% 12% auto 9% 3%;
+    justify-items: stretch;
+    align-items: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+    width: 100%;
+	margin: auto;
+	/* border: 1px solid black;
+	padding: 20px; */
+}
+
+#eight {
+	position: fixed;
+    display: flex;;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;	
+}
+
+.wrapper-8 #home {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-8 #dad4 {
+	justify-self: center;
+    align-self: center;
+    grid-row: 1/6;
+    grid-column: 2/4;
+	position: initial;
+	width: 50%;
+}
+
+.wrapper-8 #mom {
+	justify-self: center;
+    align-self: center;
+    grid-row: 1/6;
+    grid-column: 1/4;
+	position: initial;
+	width: 35%;
+}
+
+.wrapper-8 #son {
+	justify-self: center;
+    align-self: center;
+    grid-row: 3/5;
+	grid-column: 3/4;
+	position: initial;
+}
+
+.wrapper-8 > div img {
+    max-width: 70%;
+}
+
+.wrapper-9 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 11% 12% auto 9% 3%;
+    justify-items: stretch;
+    align-items: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+    width: 100%;
+	margin: auto;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#nine {
+    position: fixed;
+    display: flex;;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+.wrapper-9 #streetfull {
+	grid-row: 1/5;
+    grid-column: 1/5;
+    position: initial;
+}
+
+.wrapper-9 #cook1 {
+    justify-self: end;
+    align-self: end;
+    grid-row: 3/5;
+	grid-column: 1;
+	width: 50%;
+    position: initial;
+}
+.wrapper-9 #waiter1 {
+	justify-self: end;
+	align-self: end;
+	width: 120%;
+    grid-row: 3/5;
+    grid-column: 4;
+    position: initial;
+}
+.wrapper-9 #dad5 {
+    justify-self: end;
+    align-self: end;
+    grid-row: 3/5;
+	grid-column: 2/3;
+	width: 50%;
+    position: initial;
+}
+
+.wrapper-9 #son1 {
+	justify-self: end;
+    align-self: end;
+    grid-row: 3/5;
+	grid-column: 3/4;
+	width: 70%;
+	position: initial;
+}
+
+.wrapper-9 #cashier1 {
+	justify-self: end;
+    align-self: end;
+    grid-row: 3/5;
+	grid-column: 1/3;
+	width: 50%;
+    position: initial;
+}
+
+.wrapper-9 > div img {
+    max-width: 70%;
+}
 
 
 html, body {
@@ -216,6 +525,7 @@ img {
 	justify-content: center;
 	width: 100%;
 	height: 100%;
+	
 }
 
 #five{
@@ -228,9 +538,6 @@ p{
 	font-size: 120%;
 }
 
-#title {
-	text-align: center;
-}
 
 .text{
    top: 25%;
@@ -257,10 +564,13 @@ p{
 }
 
 #title{
-	position:absolute;
-	font-size: 80px;
+	text-align: center;
+}
+
+#block {
+	padding-top: 150px;
 	width: 100%;
-	top: 30%;
+	height: auto;
 }
 
 
@@ -409,16 +719,16 @@ p{
 	opacity: 0;
 }
 
-#climbing{
-    position: fixed;
+#climbing-img{
+    position: relative;
+    top: 75%;
     opacity: 0;
 	z-index: 1;
 }
 
 #ladder{
-	position: fixed;
-	width: 800px;
-	height: 100%;
+	/*position: fixed;
+	width: 800px;*/
     opacity: 0;
     z-index: 0;
 }
@@ -430,23 +740,22 @@ p{
 }
 
 #chinesepeople{
-    position: fixed;
+	position: fixed;
+/*	width: 600px;*/
     opacity: 0;
     z-index: -3;
 }
 
 #dad{
 	position:fixed;
-	top: 30%;
-	max-height: 50%;
+	max-height: 60%;
 	opacity: 0;
 	
 }
 
 #lawyer{
 	position:fixed;
-	left: 22%;
-	max-height: 50%;
+	max-height: 40%;
 	opacity: 0;
 }
 
@@ -519,23 +828,17 @@ p{
 
 #butcherman{
 	position:fixed;
-	top: 30%;
-	right: 30%;
-	max-height: 50%;
 	opacity: 0;
 }
 
 #dad3{
 	position:fixed;
-	left: 34%;
-	top: 30%;
 	max-height: 40%;
 	opacity: 0;
 }
 
 #dad1{
 	position:fixed;
-	top: 30%;
 	max-height: 50%;
 	opacity: 0;
 	z-index: 0;
@@ -580,25 +883,17 @@ p{
 #mom {
 	position: fixed;
 	opacity: 0;
-	top: 30%;
-	left: 38%;
-	max-height: 50%;
 	z-index: 0;
 }
 
 #son{
 	position: fixed;
 	opacity: 0;
-	top: 30%;
-	left: 45%;
-	max-height: 50%;
 	z-index: 0;
 }
 
 #dad4{
 	position:fixed;
-	top: 30%;
-	max-height: 50%;
 	opacity: 0;	
 	z-index: 0;
 }
@@ -606,39 +901,25 @@ p{
 #son1{
 	position: fixed;
 	opacity: 0;
-	top: 30%;
-	left: 45%;
-	max-height: 50%;
 }
 
 #dad5{
 	position:fixed;
-	top: 30%;
-	max-height: 50%;
 	opacity: 0;	
 }
 
 #cook1{
 	position:fixed;
-	top: 29%;
-	left: 33%;
-	max-height: 50%;
 	opacity: 0;
 }
 
 #waiter1{
 	position:fixed;
-	top: 30%;
-	right: 24%;
-	max-height: 50%;
 	opacity: 0;
 }
 
 #cashier1{
 	position:fixed;
-	top: 30%;
-	left: 25%;
-	max-height: 50%;
 	opacity: 0;
 }
 
@@ -654,6 +935,12 @@ p{
 	position: fixed;
 	width: 100vw;
 	opacity: 0;
+}
+
+#block33 {
+	padding: 0;
+	width: 0;
+	height: 20px;
 }
 
 /* @media (max-width: 1650px) {
