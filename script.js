@@ -239,7 +239,7 @@ var controller = new ScrollMagic.Controller();
 		.addTo(controller);
 
     var scene32 = new ScrollMagic.Scene({
-      triggerElement:"#block11",
+      triggerElement:"#block10",
 			duration:1000
 		}).setTween("#gates", 1, {opacity:"1"})
 		.addTo(controller);
@@ -412,28 +412,10 @@ var scene54 = new ScrollMagic.Scene({
 
 // ------------------------------------------------
 
-var scene55 = new ScrollMagic.Scene({
-  triggerElement:"#block25",
-  duration: 1000
-}).setTween("#dad4", 1, {opacity: "1"})
-.addTo(controller);
-
 var scene56 = new ScrollMagic.Scene({
   triggerElement:"#block25",
   duration: 1000
 }).setTween("#home", 1, {opacity: "1"})
-.addTo(controller);
-
-var scene57 = new ScrollMagic.Scene({
-  triggerElement:"#block25",
-  duration: 1000
-}).setTween("#mom", 1, {opacity: "1"})
-.addTo(controller);
-
-var scene58 = new ScrollMagic.Scene({
-  triggerElement:"#block25",
-  duration: 1000
-}).setTween("#son", 1, {opacity: "1"})
 .addTo(controller);
 
 var scene59 = new ScrollMagic.Scene({
@@ -450,41 +432,11 @@ var scene60 = new ScrollMagic.Scene({
 }).setTween("#streetfull", 1, {opacity: "1"})
 .addTo(controller);
 
-var scene61 = new ScrollMagic.Scene({
-  triggerElement:"#block28",
-  duration: 1000
-}).setTween("#dad5", 1, {opacity: "1"})
-.addTo(controller);
-
-var scene62 = new ScrollMagic.Scene({
-  triggerElement:"#block28",
-  duration: 1000
-}).setTween("#son1", 1, {opacity: "1"})
-.addTo(controller);
-
 var scene63 = new ScrollMagic.Scene({
   triggerElement:"#block29",
   duration: 1000
-}).setTween("#cashier1", 1, {opacity: "1"})
+}).setTween("#streetfull1", 1, {opacity: "1"})
 .addTo(controller);
-
-var scene64 = new ScrollMagic.Scene({
-  triggerElement:"#block29",
-  duration: 1000
-}).setTween("#waiter1", 1, {opacity: "1"})
-.addTo(controller);
-
-var scene65 = new ScrollMagic.Scene({
-  triggerElement:"#block29",
-  duration: 1000
-}).setTween("#cook1", 1, {opacity: "1"})
-.addTo(controller);
-
-// var scene66 = new ScrollMagic.Scene({
-//   triggerElement:"#block29",
-//   duration: 1000
-// }).setTween("#butcherman1", 1, {opacity: "1"})
-// .addTo(controller);
 
 var scene67 = new ScrollMagic.Scene({
   triggerElement:"#block31",
